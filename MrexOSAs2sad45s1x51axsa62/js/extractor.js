@@ -1,0 +1,1 @@
+function getVarFromURl(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var r=new RegExp("[\\?&]"+e+"=([^&#]*)").exec(window.location.href);return null==r?"":r[1]}
